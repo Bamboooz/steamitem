@@ -1,7 +1,7 @@
 import React, { useRef, useState } from "react";
 import { LuChevronDown, LuSearch } from "react-icons/lu";
 
-import { Timespan } from "../../types/timespan";
+import { Timespan } from "../../enums/timespan";
 import { useOnClickOutside } from "../../hooks/useOnClickOutside";
 import { cn } from "../../utils/cn";
 import steam from "../../assets/steam.png";
